@@ -21,7 +21,7 @@ st.markdown("""
             """, unsafe_allow_html=True)
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown("""
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2F4F4F;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #900C3F;">
       <a class="navbar-brand" href="https://www.ipr.northwestern.edu/who-we-are/faculty-experts/redbird.html" target="_blank">Redbird Lab</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,13 @@ st.markdown("""
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link disabled" href="http://localhost:8502/" target="_self">Variable Detail<span class="sr-only">(current)</span></a>
+            <a class="nav-link disabled" href="http://localhost:8502/" target="_self">Q&A<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8503/" target="_self">Download Data</a>
+            <a class="nav-link" href="http://localhost:8503/" target="_self">Upload Document</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8502/" target="_self">[placeholder]</a>
+            <a class="nav-link" href="http://localhost:8502/" target="_self">Similarity</a>
           </li>
         </ul>
       </div>
